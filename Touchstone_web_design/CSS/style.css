@@ -1,4 +1,4 @@
-body,html{
+body, html{
 background-color: #d3d3d3;
 height: 100%;
 width: 100%;
@@ -10,10 +10,24 @@ justify-content: center;
 header{
     display: flex;
     flex-wrap: wrap;
-    height: 10%;
+    height: 5%;
     width: 100%;
     justify-content: left;
-    /* margin-bottom: 2% */
+    
+   
+    
+}
+.hText{
+    text-decoration: none;
+    color: #00231C;
+    font-size: larger;
+    margin-right: .5%;
+    height: 50%;
+    
+}
+.hText:hover{
+    background-color: #001f3f;
+    color: #d3d3d3;
     
 }
 #headerLogo{
@@ -21,6 +35,35 @@ header{
     width: 20%;
 }
 
+hero-image>img{
+    margin-top: 10%;
+}
 #action{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 40%;
+    height: 5%;
+    background-color: #20458e;
+    color: #d3d3d3;
+    border: #634e99, .5rem, ridge;
+    margin: 1%;
+    /* text-align: center; */
+    
+}
+#action>text{
+    justify-self: center;
+}
+
+service-image{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+service-image>a>img{
+    width: 85%;
+    margin-bottom: 15%;
     
 }
