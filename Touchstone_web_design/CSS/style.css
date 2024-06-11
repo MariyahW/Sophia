@@ -6,6 +6,7 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 
+
 }
 header{
     display: flex;
@@ -47,8 +48,10 @@ hero-image>img{
     background-color: #20458e;
     color: #d3d3d3;
     border: #634e99, .5rem, ridge;
-    margin: 1%;
+    margin: 2%;
     /* text-align: center; */
+    margin-left: 15%;
+    margin-right: 15%;
     
 }
 #action>text{
@@ -57,6 +60,7 @@ hero-image>img{
 
 service-image{
     margin-top: 2%;
+    margin-left: 2%;
     width: 100%;
     display: flex;
     justify-content: center;
