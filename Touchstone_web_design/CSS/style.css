@@ -105,3 +105,15 @@ person-info>img{
     width: 250px;
     height: 150px;
 }
+
+#involve{
+    display: flex;
+    flex-wrap: wrap;
+}
+form{
+    width: 100%;
+    /* display: flex; */
+}
+.inner{
+    margin-left: 40%;
+}

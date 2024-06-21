@@ -1,32 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/style.css">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+
     <title>Community Involvement</title>
-</head>
-<body>
+  </head>
+  <body id="involve">
     <header>
-        <a href="./index.html"
-          ><img
-            id="headerLogo"
-            src="./images/Client2_LogoPalette2_20458E.png"
-            alt="logo"
-        /></a>
-        <a class="hText" href="./Gallery.html">Gallery</a>
-        <a class="hText" href="./About_us.html">About Us</a>
-        <a class="hText" href="./involvment.html">Community Involvement</a>
-      </header>
+      <a href="./index.html"
+        ><img
+          id="headerLogo"
+          src="./images/Client2_LogoPalette2_20458E.png"
+          alt="logo"
+      /></a>
+      <a class="hText" href="./Gallery.html">Gallery</a>
+      <a class="hText" href="./About_us.html">About Us</a>
+      <a class="hText" href="./involvment.html">Community Involvement</a>
+    </header>
 
-      <table id="currentCalendar">
-        
-        
+    <table id="currentCalendar"></table>
 
-      </table>
+    <form>
+      <label class="inner" for="fName">Please enter your first name</label>
+      <input  type="text" />
+      <br />
+      <label class="inner" for="lName">Please enter your last name</label>
+      <input  type="text" />
+      <br />
+      <label class="inner" for="fName">Which event are you interested in?</label>
+      <select >
+        <option selected disabled></option>
+        <option value="gy">Group Yoga</option>
+        <option value="gp" >Group Pilates</option>
+        <option value="ready">Reading to the Youth</option>
+        <option value="fy">Free Gym</option>
+      </select>
+      <br />
+      <label class="inner" for="fName">On which date?</label>
+      <input  type="text" />
+      <br />
 
-
-</body>
-<script src="./scripts/script.js"></script>
+      <button class="inner">Sign Up Now</button>
+    </form>
+  </body>
+  <script src="./scripts/script.js"></script>
 </html>
