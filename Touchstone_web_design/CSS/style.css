@@ -74,9 +74,17 @@ service-image>a>img{
 
 #currentCalendar{
     width:75%;
+    margin-bottom: 10%;
+   
 }
 td{
-    border: #001f3f 1pt solid;
-    width:10%
+    border: #d3d3d3 1pt solid;
+    width:10%;
+    background-color: #001f3f;
+    color:#d3d3d3
+}
 
+tr{
+    text-align: center;
+    
 }

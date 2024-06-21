@@ -39,9 +39,7 @@ let topRow = document.createElement("tr");
 calend.appendChild(topRow).innerText = `${monthsName[month]} Community Involvement Calendar`;
 
 topRow.style.textAlign='center';
-// console.log(month);
-// console.log(year);
-// console.log(day);
+
 
 let activities = {
   1: "Group Yoga at the Park",
