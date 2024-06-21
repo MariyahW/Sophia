@@ -86,5 +86,22 @@ td{
 
 tr{
     text-align: center;
-    
+}
+
+staff-info{
+    margin-top: 5%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+person-info{
+    width: 45%;
+    text-align: center;
+    margin: 2%;
+    margin-bottom: 5%;
+
+}
+person-info>img{
+    width: 250px;
+    height: 150px;
 }
